@@ -1,0 +1,109 @@
+<html>
+<head>
+	<title></title>
+
+<script type="text/javascript" src="../bin/db.js"></script>
+
+<script type="text/javascript">
+
+	Cliente = {
+		table: {name: "cliente", 
+		            fields: [
+		                      {name: "id",                type: "integer primary key"},
+		                      {name: "nome",              type: "text"},
+		                      {name: "email",             type: "text"},
+		                      {name: "telefone",          type: "text"},
+		                      {name: "cidade", 		      type: "cidade"}
+		                    ]
+		          },
+		
+		insert: 	function(model, callback) 	{ Database.insert_model(this.table, model, callback); },
+		find: 		function(id, callback) 		{ Database.find(id, this.table.name, callback); },
+		all: 		function(callback) 			{ Database.all(this.table.name, callback); },
+		count: 		function(callback) 			{ Database.count(this.table.name, callback); },
+		update: 	function(model, callback) 	{ Database.update_model(this.table, model, callback); },
+		first: 	 	function(callback) 			{ Database.first(this.table.name, callback); },
+		last:  		function(callback) 			{ Database.last(this.table.name, callback); },
+		remove: 	function(model, callback) 	{ Database.remove(model.id, this.table.name, callback); },
+		remove_all: function(callback) 			{ Database.remove_all(this.table.name, callback); }
+
+	};
+
+	//console.log(Cliente.table);
+
+	Database.setup("database.db", "1.0", "Database", 10000, [Cliente.table]);
+
+	/*
+	Database.insert("cliente", 
+						["nome", "email", "telefone", "cidade"], 
+						["Cristiano Caldas", "cristiano@samus.com.br", "99999999", "Vila Velha"], 
+						function(){ console.log("insert success"); }
+				);
+
+	console.log("database");
+
+
+	var cliente = {nome: "Cristiano Caldas", email: "cristiano@samus.com.br", telefone: "999999999", cidade: "Vila Velha"};
+	var cliente = {nome: "Cristiano Caldas", telefone: "999999999", cidade: "Vila Velha"};
+	var cliente = {nome: "Cristiano Caldas"};
+
+	Cliente.insert(cliente, function(){  });
+
+	Cliente.all(function(result){
+		console.log("Cliente.all", result);
+	});
+
+	Cliente.count(function(result){
+		console.log("Cliente.count", result);
+	});
+
+	Cliente.find(15, function(result){
+		console.log("Cliente.find(15)", result);
+
+		result.nome = "Bill Gates";
+		console.log("Cliente name changed", result);
+
+		Cliente.update(result, function(){
+			console.log("Cliente.updated");
+		});
+
+	});
+
+	Cliente.first(function(result){
+		console.log("Cliente.first()", result);
+
+		//Cliente.remove(result, function(){ });
+	});
+
+	Cliente.last(function(result){
+		console.log("Cliente.first()", result);
+	});
+
+	/*
+	Cliente.remove_all(function(){
+		console.log("Cliente.remove_all()");
+	});
+	*/
+
+	//insert bulk
+
+	var models = [];
+
+	for (var i = 0; i < 50; i++) {
+		models.push( {nome: "Cristiano Caldas", email: "cristiano@samus.com.br", telefone: "999999999", cidade: "Vila Velha"} );
+		models.push( {email: "cristiano@samus.com.br", cidade: "Vila Velha"} );
+		models.push( {telefone: "999999999", cidade: "Vila Velha"} );
+		models.push( {nome: "Cristiano Caldas"} );
+	};
+
+	Database.insert_models(Cliente.table, models, function(){ console.log("insert_models() complete"); });
+
+
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>

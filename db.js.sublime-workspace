@@ -1,0 +1,1338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"output",
+				"output_cronograma"
+			],
+			[
+				"out",
+				"outline_map"
+			],
+			[
+				"outl",
+				"outline_map"
+			],
+			[
+				"old",
+				"data_old"
+			],
+			[
+				"max",
+				"maxvalue"
+			],
+			[
+				"diurno_re",
+				"diurno_realizado"
+			],
+			[
+				"notu",
+				"noturno_previsto"
+			],
+			[
+				"valor",
+				"valor_acumulado"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"statu",
+				"status_date"
+			],
+			[
+				"map",
+				"map_tarefas"
+			],
+			[
+				"zip",
+				"zip_download"
+			],
+			[
+				"projeto",
+				"projeto_id"
+			],
+			[
+				"stat",
+				"status_date"
+			],
+			[
+				"DateTim",
+				"DateTime"
+			],
+			[
+				"filtro",
+				"filtro_tarefa"
+			],
+			[
+				"btn",
+				"btn-lg"
+			],
+			[
+				"TMP",
+				"TEMPPATH"
+			],
+			[
+				"baseline",
+				"baseline_termino"
+			],
+			[
+				"Tarefa",
+				"TarefaUpdate"
+			],
+			[
+				"baseline_",
+				"baseline_inicio"
+			],
+			[
+				"last",
+				"last_data"
+			],
+			[
+				"STATUS",
+				"STATUS_RESOLVIDO"
+			],
+			[
+				"pende",
+				"pendencia"
+			],
+			[
+				"cate",
+				"categorias_models"
+			],
+			[
+				"diur",
+				"diurno"
+			],
+			[
+				"cbx",
+				"cbx_data"
+			],
+			[
+				"cbx_da",
+				"cbx_data_change_value"
+			],
+			[
+				"cbx_",
+				"cbx_data_change_value"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"noturno",
+				"noturno_real"
+			],
+			[
+				"diurno",
+				"diurno_real"
+			],
+			[
+				"fotos",
+				"fotos_item"
+			],
+			[
+				"tarefa",
+				"tarefa_id"
+			],
+			[
+				"diu",
+				"diurno_realizado"
+			],
+			[
+				"mdl_",
+				"mdl_cronograma"
+			],
+			[
+				"value_",
+				"value_value"
+			],
+			[
+				"cometa",
+				"comentario_seguranca"
+			],
+			[
+				"comentar",
+				"comentario_seguranca"
+			],
+			[
+				"categ",
+				"categorias"
+			],
+			[
+				"cbx_ativi",
+				"cbx_atividade"
+			],
+			[
+				"up",
+				"updates"
+			],
+			[
+				"Tare",
+				"TarefaCategoria"
+			],
+			[
+				"Ta",
+				"TarefaUpdate"
+			],
+			[
+				"perce",
+				"percentual"
+			],
+			[
+				"percent",
+				"Percent_Fiscal"
+			],
+			[
+				"key",
+				"key_opcoes"
+			],
+			[
+				"vale",
+				"value_opcoes"
+			],
+			[
+				"amsler",
+				"amsler-container"
+			],
+			[
+				"sabercomo",
+				"sabercomofunciona"
+			],
+			[
+				"fini",
+				"finished"
+			],
+			[
+				"respo",
+				"respostas"
+			],
+			[
+				"home",
+				"home-logo"
+			],
+			[
+				"array_",
+				"array_merge"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"build",
+				"build_file"
+			],
+			[
+				"ready",
+				"ready	document.ready - $(function(){})"
+			],
+			[
+				"border-bot",
+				"border-bottom-color"
+			],
+			[
+				"veiculo",
+				"veiculo_crv_data"
+			],
+			[
+				"servico",
+				"servico_taxa"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/Database.js",
+			"settings":
+			{
+				"buffer_size": 3608,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Database_.js",
+			"settings":
+			{
+				"buffer_size": 11212,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Model.js",
+			"settings":
+			{
+				"buffer_size": 10419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nfunction build() {\n	$build_file = \"build\";\n	$build = (int)file_get_contents($build_file);\n	$build ++;\n	file_put_contents($build_file, $build);\n\n	echo \"build: \". $build;\n\n	$cmd_minify = \"find ./src/ -iname \\\"*.js\\\" -exec cat \\\"{}\\\" \\; > bin/db.js\";\n	//shell_exec($cmd_minify);\n\n	\n\n	//shell_exec(\"node minify.js\");\n\n	echo \"\\n\";\n	echo \"\\n\";\n}\n	\n?>",
+			"file": "PhakeFile",
+			"file_size": 346,
+			"file_write_time": 1489789910000000,
+			"settings":
+			{
+				"buffer_size": 351,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Phake.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Cristiano/cccaldas/projetos/samus/lib/db.js/database.html",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/version",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/build",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/models/Module.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/associacoes/views/menu.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/compradores/views/menu.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/configuracoes/views/menu.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/associacoes/controllers/Clientes.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/producao/controllers/Materiais.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/producao/controllers/Triagem.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/producao/views/materiais_list.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/producao/views/prensa_list.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/producao/controllers/Prensa.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/financeiro/controllers/Vendas.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/financeiro/controllers/Despesas.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/producao/views/triagem_list.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/financeiro/views/vendas_list.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/financeiro/views/menu.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/financeiro/views/despesas_list.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/controllers/Controller.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/producao/views/menu.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/views/includes/_head.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/views/includes/_header.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/sincronizacao/views/menu.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/helpers/action_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/sincronizacao/views/sincronizacao_list.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/config.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/index.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/libraries/AccessLib.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/modules/sincronizacao/controllers/Sincronizacao.php",
+		"/Volumes/Cristiano/cccaldas/projetos/sindimicro/catadores/web/dev/application/config/database.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_seguranca.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/data/seguranca_6",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/data/histograma_2",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Curvabusiness.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/temp/58c59be483cbc.json",
+		"/Volumes/Cristiano/Dropbox/cccaldas/administracao/dados-clientes/pmsl.txt",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/temp/5841f0af65c52.zip",
+		"/Applications/XAMPP/xamppfiles/etc/php.ini",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/temp/2017-03-03_190323.sql",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/temp/2017-02-20_211349.sql",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/temp/2017-02-20_212847.sql",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/includes/_scripts.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_curva_export.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/todo.diff",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/fixes.diff",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_curva.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/assets/css/mobile.css",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/includes/_header.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_home.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/helpers/upload_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/File.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/import/cronograma.csv",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_cronograma_read.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/assets/images/piramide.jpg",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/data/histograma_4",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/index.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/controllers/projetos/Cronograma.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/dashboard.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/helpers/model_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_rto.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/cronograma_read.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/cronograma_list.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/third_party/rb.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Reporthistograma.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/usuariogrupos_edit.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/controllers/projetos/Curva.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/third_party/rbmodel.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Tarefa.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_cronograma.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/controllers/Tests.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/config.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/components/projetos_curva_grafico.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_curva_widget.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Reportprojeto.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_histograma.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/download_csv.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_seguranca_export.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_histograma_export.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/controllers/projetos/Projetos.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/libraries/Csv.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/helpers/csv_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/import/cronograma_plan.csv",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/import/planejado.csv",
+		"/Volumes/Cristiano/Dropbox/cccaldas/administracao/dados-clientes/transicaocachoeiro.com.br.txt",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/controllers/Download.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/assets/js/html2canvas.min.js",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Tarefaupdate.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/login.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/user_guide/general/styleguide.html",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/helpers/smoney_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/libraries/Rb.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/config/database.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Usuario.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/assets/css/dashboard.css",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/includes/_head.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/helpers/action_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/arquivos_edit.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/components/projetos_seguranca_piramide.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/arquivos_read.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/components/select_tarefa_categoria.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/usuarios_add.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/usuariogrupos_add.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Model.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/helpers/histograma_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/helpers/sfile_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Models.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/includes/_footer.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/components/alert.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/includes/_alert.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/helpers/snumber_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Usuariogrupo.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/controllers/UsuarioGrupos.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/helpers/scsv_helper.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_rto_read.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_rto_edit.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/projetos_rto_add.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/controllers/projetos/RTOs.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Reportcurva.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/config/routes.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/views/components/projetos_menu.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Rtopendencia.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Rto.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Projeto.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Os.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/models/Operacao.php",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/uploads/export.csv",
+		"/Volumes/Cristiano/cccaldas/projetos/2016/sereng/sirtip/web/dev/application/controllers/Usuarios.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"		array_push($tables, ",
+			");",
+			"legend",
+			"real",
+			"string ' ",
+			"tarefas",
+			"1800",
+			"export.dat",
+			"import.dat",
+			".dat",
+			"ultima_atua",
+			"ultima",
+			"phpc",
+			"atualizacao",
+			"config.php",
+			"$sett",
+			"self::query",
+			"	",
+			"trans",
+			"	",
+			"	Caixa Postal	      ",
+			"#",
+			"curva",
+			": ",
+			"#	",
+			"status_date",
+			"limpar",
+			"widget_curva",
+			"widget",
+			"		//$",
+			"$curva",
+			"function tables",
+			"False",
+			"true",
+			"origem",
+			"dado",
+			",",
+			" ",
+			"6303",
+			"1.2.2.1.1.1",
+			"dia",
+			"datas",
+			"report_curva",
+			"histogr",
+			"pull-right",
+			"atualizar",
+			"pendencias",
+			" ",
+			"ativi",
+			"RTO",
+			"histo",
+			"atendimento@brunnosampaio.com.br\nlkdespachantes@hotmail.com\ncabecadespachante@hotmail.com\nrs_despachante@hotmail.com\ncec.despachantes@hotmail.com\nzaza-doc@hotmail.com\nTitoljuan@gmail.com\nluckdespachante@hotmail.com\nrotadespachante@hotmail.com\nalmirdesp@hotmail.com\nhalisson@live.com\n",
+			"- ",
+			"* `",
+			"`:",
+			"baseline_termino",
+			"cristiano",
+			"Cristiano Caldas (cristianocaldas)Cristiano Caldas completed ",
+			"line_top_x",
+			"dump",
+			": ",
+			"#	",
+			"mdl_loading",
+			"jsonser",
+			"datas",
+			"select_os",
+			"time",
+			"date_default_timezone_set",
+			"timezone",
+			"atuali",
+			"add",
+			"mdl",
+			"mdl_p",
+			"mdl_",
+			"\"",
+			"16:09:34+0200",
+			"  ",
+			"'",
+			" (length=10)",
+			"exclu",
+			"doccontrol.sereng.com.br",
+			"Aparecida",
+			"http://www.hcaldas.com",
+			"Ativo",
+			" ",
+			"Ativo",
+			"build_incre",
+			"db",
+			"build_incre",
+			"location",
+			"back",
+			"versi",
+			"version",
+			"NSAppTransportSecurity",
+			"resources",
+			"page",
+			"textarea",
+			"<br />\n          <br />\n          <h6>version <?= VERSION ?></h6>",
+			"version",
+			"increment",
+			" tm todo",
+			"Serviços",
+			"servicos",
+			"serviços",
+			"cep",
+			"where",
+			"data_inicio"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			",",
+			"",
+			"@goncalvesreidopiso.com.br",
+			"",
+			"`: ",
+			"* `",
+			"valor",
+			".",
+			"",
+			"#	",
+			":",
+			"",
+			"`: ",
+			"* `",
+			"select_tarefa_categoria",
+			"'",
+			"00:00:00+0000",
+			"",
+			"Itacibá",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/Database.js",
+					"settings":
+					{
+						"buffer_size": 3608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3538,
+								3538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Database_.js",
+					"settings":
+					{
+						"buffer_size": 11212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9015,
+								10012
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3079.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/Model.js",
+					"settings":
+					{
+						"buffer_size": 10419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10419,
+								10419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3150.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "build",
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/Build.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "PhakeFile",
+					"settings":
+					{
+						"buffer_size": 351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 170.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"src/Database.js"
+			],
+			[
+				"todo",
+				"todo.diff"
+			],
+			[
+				"sincroni",
+				"application/modules/sincronizacao/controllers/Sincronizacao.php"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"config",
+				"config.php"
+			],
+			[
+				"actio",
+				"application/helpers/action_helper.php"
+			],
+			[
+				"_header",
+				"application/views/includes/_header.php"
+			],
+			[
+				"_head",
+				"application/views/includes/_head.php"
+			],
+			[
+				"controller",
+				"application/controllers/Controller.php"
+			],
+			[
+				"clientes",
+				"application/modules/associacoes/controllers/Clientes.php"
+			],
+			[
+				"_heade",
+				"application/views/includes/_header.php"
+			],
+			[
+				"module",
+				"application/models/Module.php"
+			],
+			[
+				"build",
+				"build"
+			],
+			[
+				"version",
+				"version"
+			],
+			[
+				"phake",
+				"PhakeFile"
+			],
+			[
+				"database",
+				"application/config/database.php"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"projetos_curva_gr",
+				"application/views/components/projetos_curva_grafico.php"
+			],
+			[
+				"projetos_curva_w",
+				"application/views/projetos_curva_widget.php"
+			],
+			[
+				"tarefaupd",
+				"application/models/Tarefaupdate.php"
+			],
+			[
+				"projetos_curva",
+				"application/views/projetos_curva.php"
+			],
+			[
+				"curva",
+				"application/controllers/projetos/Curva.php"
+			],
+			[
+				"projetos.php",
+				"application/controllers/projetos/Projetos.php"
+			],
+			[
+				"projetos_seguranca",
+				"application/views/projetos_seguranca.php"
+			],
+			[
+				"projetos_segura",
+				"application/views/projetos_seguranca.php"
+			],
+			[
+				"sdate",
+				"application/helpers/sdate_helper.php"
+			],
+			[
+				"tar",
+				"application/models/Tarefa.php"
+			],
+			[
+				"tarefa",
+				"application/models/Tarefa.php"
+			],
+			[
+				"cronograma.php",
+				"application/controllers/testes/Cronograma.php"
+			],
+			[
+				"taf",
+				"application/models/Tarefa.php"
+			],
+			[
+				"cronograma.hp",
+				"application/controllers/projetos/Cronograma.php"
+			],
+			[
+				"projetos_crono",
+				"application/views/projetos_cronograma.php"
+			],
+			[
+				"projetos_segur",
+				"application/views/projetos_seguranca.php"
+			],
+			[
+				"reportsegura",
+				"application/models/Reportseguranca.php"
+			],
+			[
+				"reporthisto",
+				"application/models/Reporthistograma.php"
+			],
+			[
+				"projetos",
+				"application/controllers/projetos/Cronograma.php"
+			],
+			[
+				"reportsegu",
+				"application/models/Reportseguranca.php"
+			],
+			[
+				"projetos_menu",
+				"application/views/components/projetos_menu.php"
+			],
+			[
+				"reportsegur",
+				"application/models/Reportseguranca.php"
+			],
+			[
+				"projetos_home",
+				"application/views/projetos_home.php"
+			],
+			[
+				"phae",
+				"PhakeFile"
+			],
+			[
+				"projeto_histo",
+				"application/views/projetos_histograma.php"
+			],
+			[
+				"reportprojeto",
+				"application/models/Reportprojeto.php"
+			],
+			[
+				"curvabs",
+				"application/models/Curvabusiness.php"
+			],
+			[
+				"curvabusin",
+				"application/models/Curvabusiness.php"
+			],
+			[
+				"projetos_h",
+				"application/views/projetos_histograma.php"
+			],
+			[
+				"projetos_hist",
+				"application/views/projetos_histograma_export.php"
+			],
+			[
+				"mobile",
+				"application/controllers/service/Mobile.php"
+			],
+			[
+				"tarefaupdt",
+				"application/models/Tarefaupdate.php"
+			],
+			[
+				"usuario",
+				"application/models/Usuario.php"
+			],
+			[
+				"projeto",
+				"application/models/Projeto.php"
+			],
+			[
+				"routes",
+				"application/config/routes.php"
+			],
+			[
+				"projetos_cronogr",
+				"application/views/projetos_cronograma.php"
+			],
+			[
+				"scronograma",
+				"application/controllers/service/Cronograma.php"
+			],
+			[
+				"request",
+				"application/helpers/request_helper.php"
+			],
+			[
+				"action",
+				"application/helpers/action_helper.php"
+			],
+			[
+				"service",
+				"application/controllers/service/Mobile.php"
+			],
+			[
+				"projetos_cronogrm",
+				"application/views/projetos_cronograma.php"
+			],
+			[
+				"projeto_curva",
+				"application/views/projetos_curva.php"
+			],
+			[
+				"projeto_cronogr",
+				"application/views/projetos_cronograma.php"
+			],
+			[
+				"curva.p",
+				"application/controllers/projetos/Curva.php"
+			],
+			[
+				"reportprojet",
+				"application/models/Reportprojeto.php"
+			],
+			[
+				"reportpro",
+				"application/models/Reportprojeto.php"
+			],
+			[
+				"projeto.php",
+				"application/models/Projeto.php"
+			],
+			[
+				"cronograma",
+				"import/cronograma.csv"
+			],
+			[
+				"stimer",
+				"application/libraries/STimer.php"
+			],
+			[
+				"planejado",
+				"import/planejado.csv"
+			],
+			[
+				"curva.pp",
+				"application/controllers/projetos/Curva.php"
+			],
+			[
+				"curvab",
+				"application/models/Curvabusiness.php"
+			],
+			[
+				"rb",
+				"application/libraries/Rb.php"
+			],
+			[
+				"htacc",
+				".htaccess"
+			],
+			[
+				"reportcurva",
+				"application/models/Reportcurva.php"
+			],
+			[
+				"tarefaup",
+				"application/models/Tarefaupdate.php"
+			],
+			[
+				"rbmodel",
+				"application/third_party/rbmodel.php"
+			],
+			[
+				"curvabusine",
+				"application/models/Curvabusiness.php"
+			],
+			[
+				"databa",
+				"application/config/database.php"
+			],
+			[
+				"curva.php",
+				"application/controllers/projetos/Curva.php"
+			],
+			[
+				"curvabsin",
+				"application/models/Curvabusiness.php"
+			],
+			[
+				"rtos",
+				"application/controllers/projetos/RTOs.php"
+			],
+			[
+				"fixes",
+				"fixes.diff"
+			],
+			[
+				"tarefaupdte",
+				"application/models/Tarefaupdate.php"
+			],
+			[
+				"tarefacategoria",
+				"application/models/Tarefacategoria.php"
+			],
+			[
+				"histograma_export",
+				"application/views/projetos_histograma_export.php"
+			],
+			[
+				"input_file",
+				"application/views/components/input_file.php"
+			],
+			[
+				"projetos_edit",
+				"application/views/projetos_edit.php"
+			],
+			[
+				"file",
+				"application/models/File.php"
+			],
+			[
+				"projetos_curva_graf",
+				"application/views/components/projetos_curva_grafico.php"
+			],
+			[
+				"projetos_histogr",
+				"application/views/projetos_histograma_export.php"
+			],
+			[
+				"projetos_curva_export",
+				"application/views/projetos_curva_export.php"
+			],
+			[
+				"arquivos_list",
+				"application/views/arquivos_list.php"
+			],
+			[
+				"html2i",
+				"assets/js/html2canvas.min.js"
+			],
+			[
+				"arquivo",
+				"application/models/Arquivo.php"
+			],
+			[
+				"html2",
+				"assets/js/html2canvas.min.js"
+			],
+			[
+				"projetos_curva_grafi",
+				"application/views/components/projetos_curva_grafico.php"
+			],
+			[
+				"_scripts",
+				"application/views/includes/_scripts.php"
+			],
+			[
+				"_footer",
+				"application/views/includes/_footer.php"
+			],
+			[
+				"rto",
+				"application/models/Rto.php"
+			],
+			[
+				"projetos_rto_read",
+				"application/views/projetos_rto_read.php"
+			],
+			[
+				"rtos_edit",
+				"application/views/projetos_rto_edit.php"
+			],
+			[
+				"rtos_add",
+				"application/views/projetos_rto_add.php"
+			],
+			[
+				"curvabusi",
+				"application/models/Curvabusiness.php"
+			],
+			[
+				"contro",
+				"application/controllers/Controller.php"
+			],
+			[
+				"tarefacateg",
+				"application/models/Tarefacategoria.php"
+			],
+			[
+				"projetos_cronogram",
+				"application/views/projetos_cronograma_read.php"
+			],
+			[
+				"projetos_rto",
+				"application/views/projetos_rto.php"
+			],
+			[
+				"rtos_list",
+				"application/views/projetos_list.php"
+			],
+			[
+				"projetos_segurna",
+				"application/views/projetos_seguranca.php"
+			],
+			[
+				"projetos_cronograma",
+				"application/views/projetos_cronograma.php"
+			],
+			[
+				"projetos_hoe",
+				"application/views/projetos_home.php"
+			],
+			[
+				"_hea",
+				"application/views/includes/_head.php"
+			],
+			[
+				"mobile.css",
+				"assets/css/mobile.css"
+			],
+			[
+				"_foo",
+				"application/views/includes/_footer.php"
+			],
+			[
+				"dashboard",
+				"application/views/dashboard.php"
+			],
+			[
+				"contorller",
+				"application/controllers/Controller.php"
+			],
+			[
+				"_alert",
+				"application/views/includes/_alert.php"
+			],
+			[
+				"projetos_list",
+				"application/views/projetos_list.php"
+			],
+			[
+				"projetos_add",
+				"application/views/projetos_add.php"
+			],
+			[
+				"file.php",
+				"application/models/File.php"
+			],
+			[
+				"login",
+				"application/views/login.php"
+			],
+			[
+				"sdatehel",
+				"application/helpers/sdate_helper.php"
+			],
+			[
+				"cronograma_read",
+				"application/views/cronograma_read.php"
+			],
+			[
+				"smoney",
+				"application/helpers/smoney_helper.php"
+			],
+			[
+				"cronograma.csv",
+				"import/cronograma.csv"
+			],
+			[
+				"enum",
+				"application/models/Enum.php"
+			],
+			[
+				"curvabus",
+				"application/models/CurvaBusiness.php"
+			],
+			[
+				"projetos_conograma_read",
+				"application/views/projetos_cronograma_read.php"
+			],
+			[
+				"cronograma_list",
+				"application/views/cronograma_list.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 324.0,
+	"status_bar_visible": true
+}

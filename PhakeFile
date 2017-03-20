@@ -1,0 +1,23 @@
+<?php
+
+function build() {
+	$build_file = "build";
+	$build = (int)file_get_contents($build_file);
+	$build ++;
+	file_put_contents($build_file, $build);
+
+	echo "build: ". $build;
+
+	$cmd_minify = "find ./src/ -iname \"*.js\" -exec cat \"{}\" \; > bin/db.js";
+	shell_exec($cmd_minify);
+
+
+
+	//echo shell_exec("node minify.js");
+	echo shell_exec("uglifyjs bin/db.js > bin/db.min.js");
+
+	echo "\n";
+	echo "\n";
+}
+	
+?>
